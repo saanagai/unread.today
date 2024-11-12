@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: aliceblue;
+}
+body {
+}
+.unreadlogo {
+  width: 200px;
+  height: 18px;
+}
+.line {
+  border-right: solid 3px white;
+  width: 5px;
+  height: 20px;
+}
+.search-bar {
+  display: flex;
+  gap: 20px;
+}
+.search-text {
+  font-size: 16px;
+  color: rgba(250, 250, 250, 0.99);
+}
+.header-conteiner {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.header {
+  width: 100%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.43323266806722693) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(./the\ kolon.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.newarticle {
+  display: flex;
+  gap: 10px;
+}
+.newarticle p {
+  color: aliceblue;
+  font-size: 16px;
+}
+.newarticle button {
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgb(225, 224, 223);
+  color: aliceblue;
+  font-size: 14px;
+}
+.sociallogo {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.sociallogosize {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  gap: 5px;
+  fill: aliceblue;
+
+  cursor: pointer;
+}
+.sociallogosize:hover {
+  fill: blue;
+}
+
+.title-img {
+  width: 400px;
+  object-fit: cover;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.5 linear;
+}
+.title-cover img:hover {
+  transform: scale(0.5s);
+}
+.title-cover {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.title-artcle {
+  width: 400px;
+  height: auto;
+  color: aliceblue;
+  font-size: 30px;
+}
+.journalist {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+.journalist :hover {
+  border: solid 4px;
+}
+.journalist-img {
+  border-radius: 50%;
+  border: solid 2px;
+  width: 70px;
+  height: 70px;
+  border-color: aliceblue;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.journalistprofile {
+  font-size: 14px;
+}
+.journalistprofile p {
+  font-size: bold;
+}
+.content {
+  margin-top: -120px;
+  margin-left: 50px;
+  max-width: 1130px;
+}
+
+.content h3 {
+  font-size: 20px;
+  color: bisque;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+.cards {
+  max-width: 1624px;
+  display: flex;
+  gap: 20px;
+  height: 390px;
+  margin: auto;
+  overflow: scroll;
+  cursor: pointer;
+  transition: width 1s;
+  animation-duration: 2ms;
+  background-position: center;
+  border-radius: 15px;
+}
+.cards div:hover {
+  height: 420px;
+}
+
+.avatar {
+  background-size: cover;
+  background-position: center;
+  position: center;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./avatar.jpg);
+  text-align: center;
+}
+.avatar-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.blueline {
+  background-color: rgb(62, 94, 208);
+  width: 150px;
+  height: 5px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.blueline p {
+  color: aliceblue;
+}
+.socialrank {
+  display: flex;
+  justify-content: center;
+}
+.rank1 {
+  width: 10px;
+  height: 10px;
+  fill: aliceblue;
+  color: aliceblue;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 150px;
+}
+.rank2 {
+  width: 10px;
+  height: 10px;
+  fill: aliceblue;
+  color: aliceblue;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 150px;
+}
+.rank-bottom button {
+  background-color: rgb(62, 94, 208);
+  border-radius: 15px;
+  color: aliceblue;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+.rank-bottom h4 {
+  color: antiquewhite;
+  margin: bottom 10px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.rank-bottom {
+  margin-bottom: 5px;
+}
+.google {
+  background-size: cover;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./google.jpg);
+}
+.kindle {
+  background-size: cover;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./kindle.jpg);
+}
+.nobel {
+  background-size: cover;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./nobel.jpg);
+}
+.nokia {
+  background-size: contain;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./nokia.png);
+}
+.sanalhuudas {
+  background-size: contain;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./sanalhuudas.jpg);
+}
+.unreadtoday {
+  background-size: cover;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  background-image: url(./unreadtoday.jpg);
+}
