@@ -63,28 +63,66 @@
   margin-top: 20px;
   gap: 20px;
 }
+.right-bottom p {
+  color: Montserrat;
+  margin-left: 30px;
+}
+.right-bottom h5 {
+  margin-left: 30px;
+}
+.right-bottom button {
+  background-color: rgba(82, 82, 80, 0.734);
+  margin-bottom: 130px;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  border: solid 2px transparent;
+}
 .right-box {
   background-color: bisque;
   width: 300px;
   height: 280px;
   border-radius: 20px;
 }
-.right-bottom img {
+
+.right-bottom {
+  background-image: url(./tramp.jpg);
+  background-size: cover;
   width: 620px;
-  height: 400px;
-  overflow: hidden;
+  height: 470px;
   border-radius: 20px;
+  overflow: hidden;
+}
+.RB {
+  background-color: rgba(82, 82, 80, 0.734);
+  width: 100%;
+  height: 130px;
+  margin-top: -130px;
+  color: aliceblue;
+  border-radius: 0 0 20px 20px;
+}
+.RBT {
+  display: flex;
 }
 .boxes {
   display: flex;
   gap: 20px;
   margin-top: 20px;
 }
-.right-box img {
+.right-box {
+  background-image: url(./green\ men.jpg);
+  background-size: contain;
   width: 300px;
   height: 280px;
   border-radius: 20px;
-  overflow: hidden;
+}
+.rightbox {
+  background-image: url(./people.jpg);
+  background-size: contain;
+  width: 300px;
+  height: 280px;
+  border-radius: 20px;
 }
 .left-top {
   display: flex;
@@ -117,16 +155,79 @@
 }
 .Btitle {
   background-image: url(./books.jpg);
+  background-size: contain;
   max-width: 300px;
   height: 370px;
   border-radius: 20px;
 }
 .bottom-title {
-  background-color: rgba(120, 122, 123, 0.893);
+  background-color: rgba(82, 82, 80, 0.734);
   width: 300px;
-  height: 50px;
-  margin-top: 320px;
-
+  height: 130px;
+  margin-top: 240px;
   color: aliceblue;
   border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.bottom-title p {
+  color: Montserrat;
+  margin-left: 30px;
+}
+.bottom-title h5 {
+  margin-left: 30px;
+}
+.bottom-title button {
+  background-color: rgba(82, 82, 80, 0.734);
+  margin-bottom: 130px;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  border: solid 2px transparent;
+}
+.Rtitle {
+  background-image: url(./green\ men.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 300px;
+  height: 370px;
+  border-radius: 20px;
+}
+.R-Title {
+  background-color: rgba(82, 82, 80, 0.734);
+  width: 300px;
+  height: 130px;
+  margin-top: 240px;
+  color: aliceblue;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.R-Title p {
+  color: Montserrat;
+  margin-left: 30px;
+}
+.R-Title h5 {
+  margin-left: 30px;
+}
+.R-Title button {
+  background-color: rgba(82, 82, 80, 0.734);
+  margin-bottom: 130px;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  border: solid 2px transparent;
+}
+.actives {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.actives :hover {
+  box-shadow: 0px 0px 48px 27px rgba(0, 0, 0, 0.1);
+
+  transition: width 1s;
+  animation-duration: 2ms;
 }
