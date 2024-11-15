@@ -93,6 +93,7 @@
   height: 470px;
   border-radius: 20px;
   overflow: hidden;
+  transition: all 0.5s;
 }
 .RB {
   background-color: rgba(82, 82, 80, 0.734);
@@ -101,6 +102,23 @@
   margin-top: -130px;
   color: aliceblue;
   border-radius: 0 0 20px 20px;
+}
+.RB p {
+  color: Montserrat;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.RB h5 {
+  margin-left: 30px;
+}
+.RB button {
+  background-color: rgba(82, 82, 80, 0.734);
+  margin-bottom: 130px;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  border: solid 2px transparent;
 }
 .RBT {
   display: flex;
@@ -156,6 +174,7 @@
 .Btitle {
   background-image: url(./books.jpg);
   background-size: contain;
+  overflow: hidden;
   max-width: 300px;
   height: 370px;
   border-radius: 20px;
@@ -220,14 +239,155 @@
   height: 30px;
   border: solid 2px transparent;
 }
-.actives {
+.actives-top {
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
-.actives :hover {
+.actives-top:hover {
   box-shadow: 0px 0px 48px 27px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.actives-bottom {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.actives-bottom:hover {
+  box-shadow: 0px 0px 48px 27px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.background-white {
+  height: 90px;
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 30px;
+}
+.footer-top {
+  background-color: #000;
+  width: 100%;
+  height: 800px;
+  padding-top: 100px;
+  margin-top: -20px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.FT-left img {
+  width: 130px;
+  height: 20px;
+  margin-bottom: 40px;
+}
+.buttons button {
+  border-radius: 7px;
+  background-color: rgba(76, 77, 75, 0.215);
+  color: #fafafa;
+  border: solid 0 none;
+  width: 400px;
+  height: 90px;
+  border-radius: 15px;
+}
+.buttons p {
+  font-size: 14px;
+  color: rgb(178, 177, 176);
+  text-align: center;
+}
+.buttons h6 {
+  font-size: 16px;
+  color: #fafafa;
+}
+.buttons {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.buttons button:hover {
+  transform: translateX(10px);
+}
+.apps {
+}
+.apps img {
+  width: 190px;
+  height: 50px;
+  margin-top: 50px;
+}
 
-  transition: width 1s;
-  animation-duration: 2ms;
+.FT-right-head {
+  display: flex;
+  color: #fafafa;
+  gap: 10px;
+}
+.contentlegal p {
+  width: 420px;
+  height: 30px;
+  color: #8b8989;
+  font-size: 12px;
+  margin-top: 50px;
+}
+.column-text {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.column-text h6 {
+  color: rgb(42, 117, 228);
+  font-style: bold;
+  font-size: 14px;
+}
+.column-text p {
+  color: #8b8989;
+  margin-top: 10px;
+}
+.column-text1 p:hover {
+  color: #fafafa;
+  transform: translateX(10px);
+}
+.column-text1 p {
+  transition: all 0.3s;
+}
+.column-text2 h5 {
+  color: #fafafa;
+  margin-top: 10px;
+}
+.column-text2 h5:hover {
+  transform: translateX(10px);
+}
+.sociallinks {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 70px;
+  margin-top: -160px;
+}
+.sociallinks svg {
+  width: 140px;
+  height: 35px;
+
+  fill: #8b8989;
+}
+.sociallinks svg:hover {
+  fill: pink;
+}
+.Facebook svg:hover {
+  fill: blue;
+}
+.twiter svg:hover {
+  fill: rgb(49, 145, 209);
+}
+.intagram svg:hover {
+  fill: rgba(231, 125, 90, 0.618);
+}
+.linkden svg:hover {
+  fill: rgb(62, 170, 194);
+}
+.youtube svg:hover {
+  fill: rgb(220, 19, 19);
+}
+.soundcloud svg:hover {
+  fill: rgb(220, 19, 19);
 }
